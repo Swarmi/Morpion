@@ -1,0 +1,52 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* taille des divs et bordures. */
+#case1,#case2,#case3,#case4,#case5,#case6,#case7,#case8,#case9,#scorejoueur1,#scorejoueur2,#texte_score{
+    height: 180px;
+    border:1px solid black;
+}
+/* La couleur des cases impaires */
+
+#case1,#case3,#case5,#case7,#case9{
+    background-color: rgb(228, 225, 225);
+   }
+
+/* On va donner une police d'écriture originale qui fait un peu plus "jeu vidéo": */
+
+@font-face{
+    font-family: font_videogame;
+    src: url(neoletters.ttf);
+}
+
+#message{
+    height: 80px;
+    border: 1px solid black;
+    font-family: font_videogame;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+
+/* On va maintenant agencer le bouton recommencer: */
+
+#restart{
+    height: 50px;
+    border: 1px solid black;
+    font-family: font_videogame;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+       color:rgb(65, 173, 65);
+}
